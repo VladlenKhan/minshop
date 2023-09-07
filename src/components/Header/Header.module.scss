@@ -1,0 +1,54 @@
+.header {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 3px solid black;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  .container {
+    max-width: 1920px;
+    margin: 0 auto;
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 20px;
+
+      flex-wrap: wrap;
+      .text {
+        color: rgb(23, 23, 23);
+        font-family: Georgia, "Times New Roman", Times, serif;
+        text-align: center;
+        font-size: 29px;
+        text-transform: uppercase;
+        text-shadow: 1px 2px rgb(221, 176, 122);
+      }
+      .social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        .social__text {
+          font-size: 24px;
+          font-family: sans-serif;
+          font-weight: 600;
+        }
+        .social__button {
+            display: flex;
+            gap:10px;
+            align-items: center;
+            justify-content: center;
+            color:white;
+            font-family: sans-serif;
+            background-color: rgb(4, 201, 4);
+            padding:5px;
+            padding-right:10px;
+            padding-left:10px;
+            font-weight: 600;
+            text-decoration: none;
+        }
+      }
+    }
+  }
+}

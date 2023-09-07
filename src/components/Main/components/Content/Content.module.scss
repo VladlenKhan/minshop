@@ -1,0 +1,36 @@
+.content {
+  width: 80%;
+  align-self: self-start;
+
+  .nav {
+    width: 100%;
+    color: white;
+      ul {
+      padding: 20px;
+      text-transform: uppercase;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      gap: 20px;
+      font-size: 20px;
+      box-sizing: border-box;
+      color: #6e5f5a;
+      font-family: serif;
+
+      a {
+        font-size: 20px;
+        color: #6e5f5a;
+        font-family: serif;
+        text-decoration: none;
+      }
+    }
+  }
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:30px;
+  }
+}
