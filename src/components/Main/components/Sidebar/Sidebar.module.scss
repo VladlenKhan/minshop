@@ -1,13 +1,12 @@
-.sidebar {
+.sidebar {  
+  align-self: self-start;
   width: 20%;
-  height: 100vh;
   padding: 30px;
   box-sizing: border-box;
-  border-right: 1px solid black;
   display: flex;
   flex-direction: column;
-  gap: 30px;
-
+  gap: 30px; 
+ 
   ul {
     display: flex;
     flex-direction: column;
@@ -29,6 +28,11 @@
         font-size: 20px;
         color:#6e5f5a;
       }
+    }
+  }
+  @media screen and (max-width:1024px) {
+    &  {
+      display: none;
     }
   }
 }

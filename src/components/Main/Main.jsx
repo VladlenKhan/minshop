@@ -3,12 +3,10 @@ import { Content, Sidebar } from './components';
 
 const Main = () => {
     return (   <div className={ styles.container}>
-        <main className={ styles.main }>
-            
-            <Sidebar/>
-
+        <main className={ styles.main }> 
+            <Sidebar/> 
             <Content/>
-            
+     
         </main> 
          </div>
      );

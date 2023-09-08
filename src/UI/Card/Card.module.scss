@@ -21,4 +21,19 @@
         font-size: 21px;
     }
   }
+
+  @media (min-width:320px) and (max-width:425px) {
+    
+    &__img img{
+      width: 90%;
+    
+  }
+  &__content_price {
+    font-size: 100%;
+    text-align: center;
+  }
+  &__content_text {
+    font-size: 100%;
+  }
+  }
 }

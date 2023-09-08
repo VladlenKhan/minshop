@@ -1,0 +1,21 @@
+.container {
+    max-width:1920px;
+    margin:0 auto;
+
+    .wrapper {
+        padding:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap:30px;
+        .img img {
+            width: 100%;
+        }
+
+        .text p {
+            text-align: center;
+            font-size: 30px;
+        }
+    }
+}

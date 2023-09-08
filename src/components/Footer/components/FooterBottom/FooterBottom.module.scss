@@ -1,30 +1,43 @@
 .block {
-    width: 100%;
-    background-color: #646263;
-    padding: 20px 0;
-    .container {
-        max-width:1920px;
-        margin:0 auto;
+  width: 100%;
+  background-color: #646263;
+  padding: 20px 0;
+  .container {
+    max-width: 1920px;
+    margin: 0 auto;
 
-        .wrapper {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            
-            .text {
-                color: #fff;
-                font-size: 20px;
-                padding-left:130px;
-            }
-            .images {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                gap:30px;
-                flex-wrap: wrap;
-                padding-right:100px;
-                
-            }
-        }
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .text {
+        color: #fff;
+        font-size: 20px;
+        padding-left: 130px;
+      }
+      .images {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        padding-right: 100px;
+      }
     }
+  }
+  @media screen and (min-width: 320px) and (max-width: 425px) {
+    & {
+      .container {
+        .wrapper {
+          .text {
+            padding-left: 10px;
+          }
+          .images {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+  }
 }

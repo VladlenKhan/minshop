@@ -11,6 +11,8 @@
       align-items: center;
       flex-wrap: wrap;
       justify-content: space-around;
+      gap:30px;
+      padding:10px;
       .contact {
         display: flex;
         flex-direction: column;
@@ -29,7 +31,7 @@
       }
       .map {
         width: 300px;
-        height: 100px;
+        height: 200px;
         background-color: #fff;
       }
       .contact1 {
@@ -62,4 +64,5 @@
       }
     }
   }
+  
 }
