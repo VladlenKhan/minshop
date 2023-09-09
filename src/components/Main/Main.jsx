@@ -1,15 +1,16 @@
-import styles from './Main.module.scss';
-import { Content, Sidebar } from './components';
+import Container from "../wrappers/Container/Container";
+import styles from "./Main.module.scss";
+import { Content, Sidebar } from "./components";
 
 const Main = () => {
-    return (   <div className={ styles.container}>
-        <main className={ styles.main }> 
-            <Sidebar/> 
-            <Content/>
-     
-        </main> 
-         </div>
-     );
-}
- 
+	return (
+		<Container>
+			<main className={styles.main}>
+				<Sidebar />
+				<Content />
+			</main>
+		</Container>
+	);
+};
+
 export default Main;

@@ -1,14 +1,11 @@
-import { Footer, Header, Main } from '../../components';
-import styles from './Home.module.scss'
+import { Main, Wrapper } from "../../components";
 
 const Home = () => {
-    return ( 
-        <>
-          <Header/>
-          <Main/>
-          <Footer/>
-        </>
-     );
-}
- 
+	return (
+		<Wrapper>
+			<Main />
+		</Wrapper>
+	);
+};
+
 export default Home;

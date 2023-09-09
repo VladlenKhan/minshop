@@ -1,7 +1,13 @@
+import { useEffect } from "react";
+import { useGetAllCategoriesQuery } from "../../../../store/middleWares/categoryApi";
 import styles from "./Sidebar.module.scss";
 import { SearchInput } from "./components";
 
 const Sidebar = () => {
+  const {data=[]} = useGetAllCategoriesQuery()
+
+ 
+  console.log(data);
   return (
     <div className={styles.sidebar}>
       <SearchInput />
