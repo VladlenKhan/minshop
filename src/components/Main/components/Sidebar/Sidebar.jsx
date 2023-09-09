@@ -6,8 +6,8 @@ import { SearchInput } from "./components";
 const Sidebar = () => {
   const {data=[]} = useGetAllCategoriesQuery()
 
- 
-  console.log(data);
+ console.log(data);
+  
   return (
     <div className={styles.sidebar}>
       <SearchInput />
